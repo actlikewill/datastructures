@@ -102,6 +102,8 @@ class LinkedList {
         }
     }
 
+
+
     // Clear list
 
     clearList() {
