@@ -1,0 +1,23 @@
+{
+  "name": "datastuctures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2darray.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actlikewill/datastructures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actlikewill/datastructures/issues"
+  },
+  "homepage": "https://github.com/actlikewill/datastructures#readme",
+  "devDependencies": {
+    "tap": "^14.6.5"
+  }
+}
