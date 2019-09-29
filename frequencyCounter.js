@@ -22,4 +22,27 @@ function validAnagram(s1, s2) {
 
 }
 
-console.log(validAnagram('qwerty', 'qweryt'))
+function sameFrequency(x, y){
+    const xtoString = `${x}`;
+    const ytoString = `${y}`;
+
+    let frequencyCounter1 = {}
+    let frequencyCounter2 = {}
+
+    for( let val of xtoString) {
+        frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
+      }
+    for( let val of ytoString) {
+    frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1
+    }
+
+    for( let val in frequencyCounter1) {
+        if(frequencyCounter1[val] !== frequencyCounter2[val]) {
+          return false;
+        }
+    }
+    return true;
+  }
+
+ console.log(sameFrequency(182, 281))
+// console.log('wilson'.split(''))
