@@ -1,3 +1,5 @@
+const t = require('tap');
+
 function validAnagram(s1, s2) {
     let frequencyCounter1 = {}
     let frequencyCounter2 = {}
@@ -44,5 +46,4 @@ function sameFrequency(x, y){
     return true;
   }
 
- console.log(sameFrequency(182, 281))
-// console.log('wilson'.split(''))
+  t.equal(sameFrequency(182, 281), true);
