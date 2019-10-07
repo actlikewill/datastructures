@@ -17,7 +17,6 @@ class NaiveDict {
     }
 }
 
-
 class HashTable {
     constructor() {
         this.bucketCount = 100000;
